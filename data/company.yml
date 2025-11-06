@@ -1,0 +1,19 @@
+SEO_options:
+  site_title: MegaKit
+  description: A template for Hugo, adapted from the MIT-licensed MegaKit Bootstrap template from Theme Fisher.
+  author: ThemeFisher
+  twitter_image: 
+  twitter_site: 
+  image: 
+google_analytics_key: 
+favicon: /images/favicon.png
+logo_dark: /uploads/megakit-logo-dark.svg
+logo_light: /uploads/megakit-logo.svg
+facebook: https://www.facebook.com/themefisher
+twitter: https://twitter.com/themefisher
+github: https://github.com/themefisher/
+pinterest: https://www.pinterest.com/themefisher/
+support:
+  phone: "+23-345-67890"
+  email: support@gmail.com
+copyright_html: Copyright &copy; 2020, Designed &amp; Developed by <a href="https://themefisher.com/">Theme fisher</a>
