@@ -16,7 +16,7 @@
       cursor: pointer;
     }
   }
-    
+
   .nav-link:hover, .nav-link:focus,
   .active {
     color: $primary-color;
@@ -36,7 +36,7 @@
   padding-left: 15px;
   @include desktop {
     padding-left: 0;
-  } 
+  }
 
 
   &:hover {
@@ -51,10 +51,11 @@
   border-bottom: 1px solid rgba(255,255,255,.05);
 
   .header-top-socials {
-    border-right: 1px solid rgba(255,255,255,.05);
+    // CUSTOM: topbar vertical top
+    // border-right: 1px solid rgba(255,255,255,.05);
     padding: 12px 0px;
   }
-  
+
   .header-top-socials {
     margin-left: -8px;
     a {
@@ -217,7 +218,7 @@ ul.dropdown-menu li {
 
 .dropdown-item {
   &:hover{
-    background-color: #000;    
+    background-color: #000;
   }
 }
 

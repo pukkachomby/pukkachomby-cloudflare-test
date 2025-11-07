@@ -1,29 +1,29 @@
 column:
-  - heading: Company
+  - heading: Business Info
     items:
-      - name: "Terms & Conditions"
-        url: "/about/"
-        open_in_new_tab: false
-      - name: "Privacy Policy"
-        url: "/about/"
-        open_in_new_tab: false
-      - name: "Support"
-        url: "/contact/"
-        open_in_new_tab: false
-      - name: "FAQ"
-        url: "/contact/"
-        open_in_new_tab: false
-  - heading: Quick Link
-    items:
-      - name: "About"
-        url: "/about/"
-        open_in_new_tab: false
       - name: "Services"
         url: "/services/"
         open_in_new_tab: false
-      - name: "Blogs"
-        url: "/blog/"
+      - name: "Pricing"
+        url: "/pricing/"
         open_in_new_tab: false
       - name: "Contact"
         url: "/contact/"
         open_in_new_tab: false
+  - heading: Media
+    items:
+      - name: "Teachers"
+        url: "/teachers/"
+        open_in_new_tab: false
+      - name: "Blog"
+        url: "/blog/"
+        open_in_new_tab: false
+      - name: "Portfolio"
+        url: "/portfolio/"
+        open_in_new_tab: false
+
+subscribe:
+  heading: "Notifications"
+  description: "Join our Zalo group for notifications of new teachers"
+  placeholder: "Zalo number"
+  button_text: "Join"

@@ -1,8 +1,8 @@
 ---
 title: Our blog
 hero:
-  title: Blog Articles
-  background_image: /images/bg/home-2.jpg
+  title: Useful resources
+  background_image: /images/0-home10.jpg
 url: /blog/
 seo:
   page_description:

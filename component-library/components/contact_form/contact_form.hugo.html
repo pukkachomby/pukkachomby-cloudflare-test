@@ -2,18 +2,19 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-6 col-md-12 col-sm-12">
-				<form id="contact-form" class="contact__form" method="post" action="/">
+                <!-- CUSTOM: -->
+				<form id="contact-form" class="contact__form" method="post" action="https://formspree.io/f/mdkprpyp">
 					<h3 class="text-md mb-4">{{ .form_heading }}</h3>
 					<div class="form-group">
-						<input name="name" type="text" class="form-control" placeholder="Your Name" required>
+						<input name="name" type="text" class="form-control" placeholder="{{ .name_placeholder | default "Your Name" }}" required>
 					</div>
 					<div class="form-group">
-						<input name="email" type="email" class="form-control" placeholder="Email Address" required>
+						<input name="email" type="email" class="form-control" placeholder="{{ .email_placeholder | default "Email Address" }}" required>
 					</div>
 					<div class="form-group-2 mb-4">
-						<textarea name="message" class="form-control" rows="4" placeholder="Your Message" required></textarea>
+						<textarea name="message" class="form-control" rows="4" placeholder="{{ .message_placeholder | default "Your Message" }}" required></textarea>
 					</div>
-					<button class="btn btn-main" name="submit" type="submit">Send Message</button>
+					<button class="btn btn-main" name="submit" type="submit">{{ .submit_button_text | default "Send Message" }}</button>
 				</form>
 			</div>
 
@@ -35,15 +36,21 @@
 					</ul>
 
 					<ul class="social-icons list-inline mt-5">
+						{{ if .facebook }}
 						<li class="list-inline-item">
 							<a href="https://facebook.com/{{ .facebook }}"><i class="fab fa-facebook-f"></i></a>
 						</li>
+						{{ end }}
+						{{ if .twitter }}
 						<li class="list-inline-item">
 							<a href="https://twitter.com/{{ .twitter }}"><i class="fab fa-twitter"></i></a>
 						</li>
+						{{ end }}
+						{{ if .linkedin }}
 						<li class="list-inline-item">
 							<a href="https://linkedin.com/in/{{ .linkedin }}"><i class="fab fa-linkedin-in"></i></a>
 						</li>
+						{{ end }}
 					</ul>
 				</div>
 			</div>

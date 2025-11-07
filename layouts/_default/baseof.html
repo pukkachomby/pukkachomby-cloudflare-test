@@ -30,12 +30,16 @@
             {{ if .Site.Data.company.github }}
               <a href="{{ .Site.Data.company.github }}" aria-label="github"><i class="fab fa-github"></i></a>
             {{ end }}
+            {{ if .Site.Data.company.linkedin }}
+              <a href="{{ .Site.Data.company.linkedin }}" aria-label="linkedin"><i class="fab fa-linkedin-in"></i></a>
+            {{ end }}
           </div>
         </div>
         <div class="col-lg-10 col-md-8 text-center text-lg-right text-md-right">
           <div class="header-top-info mb-2 mb-md-0">
             {{ if .Site.Data.company.support.phone }}
-              <a href="tel:{{ .Site.Data.company.support.phone }}">Call Us : <span>{{ .Site.Data.company.support.phone }}</span></a>
+              <!-- <a href="tel:{{ .Site.Data.company.support.phone }}"><i class="fas fa-phone-alt mr-2"></i><span>{{ .Site.Data.company.support.phone }}</span></a> -->
+              <a href="tel:{{ .Site.Data.company.support.phone }}">Zalo: <span>{{ .Site.Data.company.support.phone }}</span></a>
             {{ end }}
             {{ if .Site.Data.company.support.email }}
               <a href="mailto:{{ .Site.Data.company.support.email }}"><i class="fas fa-envelope mr-2"></i><span>{{ .Site.Data.company.support.email }}</span></a>
@@ -59,7 +63,7 @@
 </div>
 
 
-<!-- 
+<!--
 Essential Scripts
 =====================================-->
 <!-- Main jQuery -->
@@ -75,7 +79,7 @@ Essential Scripts
 <script src="/plugins/counterup/jquery.counterup.min.js"></script>
 
 <!-- Google Map -->
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCcABaamniA6OL5YvYSpB3pFMNrXwXnLwU" defer></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBnW82IV2TjOZgi8TYqYaILT2b5mZO_h04" defer></script>
 <script src="/plugins/google-map/map.js" defer></script>
 
 <script src="/js/script.js"></script>

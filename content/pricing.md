@@ -1,67 +1,79 @@
 ---
-title: "Our pricing"
+title: "Our Pricing"
 seo_options:
-  description: 
+  description: "Simple, transparent pricing for English teacher placement and support services. No upfront payment before placement, and replacement guarantee included."
   featured_image:
-  og_type: 
+  og_type:
   canonical_link:
+
 hero:
-  title: "Pricing Package"
-  background_image: "/images/bg/home-2.jpg"
+  title: "Simplicity and Transparency"
+  background_image: "/images/0-home2.jpg"
+
 content_blocks:
   - _bookshop_name: "overview"
-    preheading: "We are creative"
-    heading: "We provide best solution to client with their business problem"
+    preheading: "No Risk, No Complexity"
+    heading: "Clear rates, guaranteed placement, full support included."
     sections:
-      - icon: "ti-wand"
-        title: "Modern & Responsive design"
-        text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum, aspernatur."
-      - icon: "ti-medall"
-        title: "Awarded licensed company"
-        text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum, aspernatur."
+      - icon: "ti-check"
+        title: "No Upfront Payment"
+        text: "You only pay after the teacher has successfully begun teaching at your school."
+      - icon: "ti-shield"
+        title: "Replacement Guarantee"
+        text: "If a placement is not a fit within the first 14 days, we replace the teacher at no additional cost."
+
   - _bookshop_name: "pricing"
-    preheading: "Our pricing"
-    heading: "No hidden Charges.Choose Your Perfect Plan"
+    preheading: "Our Pricing"
+    heading: "Simple Pricing, Clear Terms"
     plans:
-      - name: "Free"
-        price: "$0"
-        metric: "Per User / Month"
+      - name: "Native English Teacher"
+        price: "650k"
+        metric: "Per Hour (with VAT)"
         includes:
-          - "Up to 1 User"
-          - "Max 100 Items"
-          - "500 Queries"
-          - "Basic Statistics"
+          - "Every hour after 92 hours/month is free"
+          - "Clear accent"
+          - "White skin"
+          - "Qualified and trained"
+          - "Ongoing support provided"
+          - "Replacement guarantee"
         button:
-          url: "/"
-          text: "Download Now"
-          highlight: false
-      - name: "Basic"
-        price: "$12"
-        metric: "Per User / Month"
-        includes:
-          - "Up to 5 Users"
-          - "Max 1000 Items"
-          - "5000 Queries"
-          - "Standard Statistics"
-        button:
-          url: "/"
-          text: "Sign Up Now"
+          url: "/contact/"
+          text: "Contact"
           highlight: true
-      - name: "Premium"
-        price: "$39"
-        metric: "Per User / Month"
+
+      - name: "Non-Native English Teacher"
+        price: "615k"
+        metric: "Per Hour (with VAT)"
         includes:
-          - "Unlimited Users"
-          - "Unlimited Items"
-          - "Unlimited Queries"
-          - "Full Statistics"
+          - "Every hour after 92 hours/month is free"
+          - "Near-native accent"
+          - "White skin"
+          - "Trained in teaching and English"
+          - "Ongoing support provided"
+          - "Replacement guarantee"
         button:
-          url: "/"
-          text: "Download Now"
-          highlight: false
+          url: "/contact/"
+          text: "Contact"
+          highlight: true
+
+      - name: "Teaching Assistant (TA)"
+        price: "200k"
+        metric: "Per Hour (with VAT)"
+        includes:
+          - "Every hour after 92 hours/month is free"
+          - "Fluent English communication"
+          - "Professional appearance"
+          - "Trained in classroom management"
+          - "Supports classroom communication"
+          - "Replacement guarantee"
+        button:
+          url: "/contact/"
+          text: "Contact"
+          highlight: true
+
     cta:
-      preheading: "For every type business"
-      heading: "Entrust Your Project to Our Best Team of Professionals"
+      preheading: "Ready to Get Started?"
+      heading: "Tell us what your school needs. We'll handle everything else."
       button:
         url: "/contact/"
         text: "Contact"

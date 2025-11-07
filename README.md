@@ -1,42 +1,60 @@
 # Megakit
-
-Business template for Hugo. Browse through a [live demo](https://timely-land.cloudvent.net/). This theme has been adapted from the MIT licensed [Megakit Bootstrap template from Theme Fisher](https://github.com/themefisher/Megakit-Bootstrap-Agency-Template)
-
-![Megakit template screenshot](images/_screenshot.png)
-
-Megakit was made by [Themefisher](https://themefisher.com/) and converted to Hugo by [CloudCannon](https://cloudcannon.com/), a Jamstack platform for the whole team.
-
-[![Deploy to CloudCannon](https://buttons.cloudcannon.com/deploy.svg)](https://app.cloudcannon.com/register#sites/connect/github/CloudCannon/megakit-hugo-template)
-
-## Features
-
-* Contact form
-* Pre-built pages
-* Pre-styled components
-* Blog with pagination and category pages
-* Configurable footer
-* Optimised for editing in [CloudCannon](https://cloudcannon.com/)
-
-## Setup
-
-Get a workflow going to see your site's output (with [CloudCannon](https://app.cloudcannon.com/) or Hugo locally).
-
 ## Develop
+* [Hugo](https://gohugo.io/) `0.87.0`
 
-Megakit was built with [Hugo](https://gohugo.io/) version `0.87.0`, but should support newer versions as well.
+## Todo
+* REDO this whole thing so it can receive updates
+    * See the Setup section in Website.md
+* Google Analytics
+* Facebook Pixel
+* Add to CloudFlare
+* See Website notes for more
+* Clean out pics
 
-Run the standalone executable `hugo` to serve the site locally:
+## Files
+### List of edited files
+* NB I try to note changes with `CUSTOM:` marker
+* /data/company.yml
+    * SEO, should match meta.yml, although SEO section isn't used?
+    * navbar
+    * logo
 
-~~~bash
-$ hugo server
-~~~
+| File                                                              | Description                      |
+|-------------------------------------------------------------------|----------------------------------|
+| /assets/scss/templates/_cta.scss                                  | CTA bg pic path                  |
+| /assets/scss/templates/_navigation.scss                           | Topbar vertical line separator   |
+| /assets/scss/templates/_pricing.scss                              | Pricing bg pic path              |
+| /assets/scss/templates/_slider.csss                               | No edits, but good for homepage  |
+| /assets/scss/_variables.scss                                      | Colors                           |
+| /component-library/components/map/map.hugo.html                   | Gmap marker icon path            |
+| /component-library/components/contact_form/contact_form.hugo.html | Formspree action                 |
+| /content                                                          | Fill in                          |
+| /data/footer.yml                                                  | Footer                           |
+| /data/meta.yml                                                    | SEO!                             |
+| /data/nav.yml                                                     | Navbar                           |
+| /layouts/_default/baseof.html                                     | Gmaps API, "Zalo" text in topbar |
+| /layouts/partials/footer.html                                     | Formspree action                 |
+| /layouts/partials/head.html                                       | Favicon, DEPRECATION FIX         |
+| /static/images                                                    | Images                           |
+| config.toml                                                       | Obvious, DEPRECATION FIX         |
 
-## Editing
-
-Megakit is set up for adding, updating and removing pages, components, posts, company details and footer elements in [CloudCannon](https://app.cloudcannon.com/).
-
-
-### Company details
-
-* Reused around the site to save multiple editing locations.
-* Set in the *Data* / *Company* section.
+### NERDTreeBookmarks
+```
+blog ~/Documents/hugo-megakit/content/posts/_index.md
+color ~/Documents/hugo-megakit/assets/scss/_variables.scss
+config.toml ~/Documents/hugo-megakit/config.toml
+contact-form-action ~/Documents/hugo-megakit/component-library/components/contact_form/contact_form.hugo.html
+cta-bg-pic ~/Documents/hugo-megakit/assets/scss/templates/_cta.scss
+favicon ~/Documents/hugo-megakit/layouts/partials/head.html
+footer ~/Documents/hugo-megakit/data/footer.yml
+footer.html ~/Documents/hugo-megakit/layouts/partials/footer.html
+header-vert-line ~/Documents/hugo-megakit/assets/scss/templates/_navigation.scss
+homepage ~/Documents/hugo-megakit/assets/scss/templates/_slider.scss
+idkbar ~/Documents/hugo-megakit/data/meta.yml
+map-api-LINKEDIN ~/Documents/hugo-megakit/layouts/_default/baseof.html
+map-icon ~/Documents/hugo-megakit/component-library/components/map/map.hugo.html
+MASTER ~/Documents/hugo-megakit/content/_index.md
+navbar ~/Documents/hugo-megakit/data/nav.yml
+pricing-bg ~/Documents/hugo-megakit/assets/scss/templates/_pricing.scss
+topbar ~/Documents/hugo-megakit/data/company.yml
+```

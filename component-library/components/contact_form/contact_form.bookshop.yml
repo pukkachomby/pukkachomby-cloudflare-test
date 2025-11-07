@@ -12,6 +12,10 @@ blueprint:
   preheading: ""
   heading: ""
   form_heading: ""
+  name_placeholder: "Your Name"
+  email_placeholder: "Email Address"
+  message_placeholder: "Your Message"
+  submit_button_text: "Send Message"
   address: ""
   email: ""
   phone: ""
@@ -24,12 +28,16 @@ preview:
   preheading: We are Professionals
   heading: Don’t Hesitate to contact with us for any kind of information
   form_heading: Contact Form
-  address: North Main Street, Brooklyn, Australia
+  name_placeholder: "Your Name"
+  email_placeholder: "Email Address"
+  message_placeholder: "Your Message"
+  submit_button_text: "Send Message"
+  address: Address
   email: contact@mail.com
-  phone: +88 01672 506 744
-  facebook: themefisher
-  twitter: themefisher
-  linkedin: themefisher
+  phone: +84 9 5555 5555
+  facebook: gvnn.vn
+  twitter: gvnn.vn
+  linkedin: gvnn.vn
 
 # Any extra CloudCannon inputs configuration to apply to the blueprint
 _inputs: {}

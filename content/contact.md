@@ -1,26 +1,29 @@
 ---
 title: "Contact Us"
 seo_options:
-  description: 
+  description:
   featured_image:
-  og_type: 
+  og_type:
   canonical_link:
 hero:
   title: "Get In Touch"
-  background_image: "/images/bg/home-2.jpg"
+  background_image: "/images/0-home12.jpg"
 content_blocks:
   - _bookshop_name: "contact_form"
-    preheading: "We are Professionals"
-    heading: "Don’t Hesitate to contact with us for any kind of information"
+    preheading: "Empower your students"
+    heading: "See available teachers or schedule a consultation."
     form_heading: "Contact Form"
-    address: "North Main Street, Brooklyn, Australia"
-    email: contact@mail.com 
-    phone: +88 01672 506 744 
-    facebook: themefisher
-    twitter: themefisher
-    linkedin: themefisher
-  - _bookshop_name: "map"
-    latitude: 40.712776
-    longitude: -74.005974
-    name: "Megakit"
+    name_placeholder: "Name"
+    email_placeholder: "Email"
+    message_placeholder: "Message"
+    submit_button_text: "Send"
+    address: "Q1, TP HCM"
+    email: info@gvnn.vn
+    phone: 03 8918 4583
+    facebook: gvnn.vn
+    linkedin: gvnn.vn
 ---
+  - _bookshop_name: "map"
+    latitude: 10.763122424817626
+    longitude: 106.69134908197937
+    name: "GVNN Lotus"

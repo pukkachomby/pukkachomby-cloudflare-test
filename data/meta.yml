@@ -1,6 +1,6 @@
-title: Megakit
-description: Megakit is a versatile business template made with Bootstrap CSS framework for Hugo.
-BaseURL: example.com
+title: GVNN Lotus
+description: "Reliable English teacher recruitment and placement services for schools across Vietnam. We provide qualified educators, ongoing support, and training to help students succeed through effective English education."
+BaseURL: pukkachomby.github.io
 open_graph_type: website
 twitter_handle:
-social_media_share_image: images/siteicon.png
+social_media_share_image: images/logo/favicon.png
